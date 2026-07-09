@@ -2,7 +2,7 @@
 backend/cpp_bridge.py
 Python ctypes bridge to the NEURO-X C++ shared library.
 Falls back gracefully to psutil if the library is not compiled.
-
+ 
 Usage:
     from cpp_bridge import CppBridge
     bridge = CppBridge()
